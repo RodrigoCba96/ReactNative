@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, TextInput, View, Button, FlatList } from 'react-native';
+import { Header } from './components';
+import { CATEGORIES } from './constants/data/categories.json'
 
 export default function App() {
 
@@ -30,6 +32,12 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.inputContainer}>
+        <Header title='Categories'/>
+        <FlatList 
+        data={CATEGORIES}
+        renderItem={({ item }) => <Text>{item.name}</Text>}
+        keyExtractor={(item) => item.id} 
+        />
         <TextInput
           style={styles.input}
           placeholder='Testing'

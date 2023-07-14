@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Producto1",
+      "backgroundColor": "#FF0000",
+      "backgroundImage": ""
+    },
+    {
+      "id": 2,
+      "name": "Producto2",
+      "backgroundColor": "#FF0000",
+      "backgroundImage": ""
+    },
+    {
+      "id": 3,
+      "name": "Producto3",
+      "backgroundColor": "#FF0000",
+      "backgroundImage": ""
+    }
+  ]
+  
